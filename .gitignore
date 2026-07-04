@@ -1,0 +1,28 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de ejecución y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos generados por la aplicación
+invalidas.json
+*.json.tmp
+
+# Configuraciones locales
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
