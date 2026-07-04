@@ -22,6 +22,7 @@ invalidas.json
 # Configuraciones locales
 .env
 .env.*
+CARLOS-FLORES-repo.txt
 
 # IDEs
 .vscode/
