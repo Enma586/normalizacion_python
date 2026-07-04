@@ -37,6 +37,16 @@ Al iniciar la aplicación, se desplegará un menú principal interactivo en la t
 5. Salir
    - Finaliza la sesión de forma segura.
 
+## Ejecución de la Aplicación
+
+Para iniciar la interfaz interactiva, ejecuta el siguiente comando desde la raíz del proyecto:
+
+```bash
+venv/bin/streamlit run normalization_project/app.py
+```
+
+Este comando activa la aplicación web de Streamlit y carga la interfaz principal desde el archivo app.py. Una vez ejecutado, puedes abrir la URL que aparece en la terminal para interactuar con el sistema de normalización de transacciones.
+
 ## Nota Técnica: Decisiones de Diseño y Uso Consciente de IA
 
 ### 1. Decisiones de Diseño Técnico
