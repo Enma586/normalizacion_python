@@ -74,6 +74,16 @@ Y finalmente inicia la aplicación:
 streamlit run normalization_project/app.py
 ```
 
+### Opción 3: si no quiere usar un entorno virtual
+
+También puedes ejecutar la aplicación directamente con Python, sin crear un entorno virtual:
+
+```bash
+python3 normalization_project/app.py
+```
+
+Si el proyecto requiere Streamlit, puedes instalarlo de forma global o usar el comando anterior según tu configuración del sistema.
+
 Este comando activa la aplicación web de Streamlit y carga la interfaz principal desde el archivo app.py. Una vez ejecutado, puedes abrir la URL que aparece en la terminal para interactuar con el sistema de normalización de transacciones.
 
 ## Nota Técnica: Decisiones de Diseño y Uso Consciente de IA
