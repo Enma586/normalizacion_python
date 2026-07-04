@@ -39,10 +39,39 @@ Al iniciar la aplicación, se desplegará un menú principal interactivo en la t
 
 ## Ejecución de la Aplicación
 
-Para iniciar la interfaz interactiva, ejecuta el siguiente comando desde la raíz del proyecto:
+### Opción 1: si ya tienes un entorno virtual llamado venv
+
+Activa el entorno virtual desde la raíz del proyecto:
 
 ```bash
-venv/bin/streamlit run normalization_project/app.py
+source venv/bin/activate
+```
+
+Luego ejecuta la aplicación:
+
+```bash
+streamlit run normalization_project/app.py
+```
+
+### Opción 2: si no tienes un entorno virtual
+
+Crea uno y actívalo:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Instala las dependencias necesarias:
+
+```bash
+pip install streamlit
+```
+
+Y finalmente inicia la aplicación:
+
+```bash
+streamlit run normalization_project/app.py
 ```
 
 Este comando activa la aplicación web de Streamlit y carga la interfaz principal desde el archivo app.py. Una vez ejecutado, puedes abrir la URL que aparece en la terminal para interactuar con el sistema de normalización de transacciones.
